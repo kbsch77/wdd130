@@ -10,6 +10,8 @@ nav a{
     color: #1f487e;
     text-decoration: none;
     padding: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 nav a:hover{
     background-color: #669bbc;
@@ -41,12 +43,14 @@ main section img{
 #background {
     height: 725px;
     background-color: #669bbc;
+    margin-bottom: 100px;
 } 
 
 
 body{
     background-color: #fcfbfb;
     font-size: 22px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -72,6 +76,7 @@ body{
     color: white;
     line-height: 1.5em;
     padding: 35px;
+    margin-top: 175px;
 }
 .msg h2{
     color: #ffd166;
@@ -138,5 +143,5 @@ footer .social img{
     margin: 200px 0;
 }
 .card-img{
-    border: 10px #ffd166;
+    border: 10px solid #ffd166;
 }
