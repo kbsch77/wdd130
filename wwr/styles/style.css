@@ -211,6 +211,39 @@ footer .social img{
     box-shadow: 5px 5px 10px #1f487e;
 }
 
+/* rivers page */
+.river-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+}
+.river1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.river2{
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+.river3{
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+.river1, .river2, .river3{
+    margin-top: 100px;
+}
+.river1 h2, .river2 h2, .river3 h2{
+    margin-top: 50px;
+}
+.river1 img, .river2 img, .river3 img{
+    border: 10px solid #ffd166;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    float: left;
+    margin: 20px;
+}
+
+/* screen size optimization */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
