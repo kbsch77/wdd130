@@ -52,7 +52,7 @@ nav a:hover{
     text-align: center;
     color: #ffd60a;
 }
-#welcome-message{
+#welcome-message h3{
     margin: 25px;
     color: #4eb2da;
     text-align: center;
@@ -62,6 +62,10 @@ main{
 }
 h2{
     color: #4eb2da;
+}
+p{
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .products{
@@ -125,3 +129,37 @@ footer a:hover{
     color: #ffd60a;
     text-decoration: underline;
 }
+
+/* checkout page */
+.container {
+    background-color: black;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid #4eb2da;
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+  }
+
+  .checkout-img1, .checkout-img2, .checkout-img3, .checkout-img4{
+      max-width: 125px;
+      max-height: 125px;
+      background-color: #ffd60a;
+      border: #ffd60a;
+      border-style: solid;
+      border-width: 2px;
+      border-radius: 20%;
+  }
+  h4{
+      text-align: right;
+  }
+  h3{
+      text-align: right;
+  }
+  .policy{
+      margin-bottom: 75px;
+  }
