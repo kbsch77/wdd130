@@ -86,12 +86,28 @@ p{
     border-width: 4px;
     border-radius: 20%;
 }
+.blaster1 img:hover, .blaster2 img:hover, .blaster3 img:hover, .blaster4 img:hover{
+    max-width: 500px;
+    max-height: 250px;
+    border: #4eb2da;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20%;
+}
+
 .ship1 img, .ship2 img, .ship3 img, .ship4 img{
     max-width: 500px;
     max-height: 250px;
     background-color: #ffd60a;
     border-radius: 20%;
 }
+.ship1 img:hover, .ship2 img:hover, .ship3 img:hover, .ship4 img:hover{
+    max-width: 500px;
+    max-height: 250px;
+    background-color: #4eb2da;
+    border-radius: 20%;
+}
+
 .droid1 img, .droid2 img{
     max-width: 500px;
     max-height: 250px;
@@ -102,6 +118,18 @@ p{
     max-width: 250px;
     max-height: 500px;
     background-color: #ffd60a;
+    border-radius: 20%;
+}
+.droid1 img:hover, .droid2 img:hover{
+    max-width: 500px;
+    max-height: 250px;
+    background-color: #4eb2da;
+    border-radius: 20%;
+}
+.droid3 img:hover, .droid4 img:hover{
+    max-width: 250px;
+    max-height: 500px;
+    background-color: #4eb2da;
     border-radius: 20%;
 }
 
